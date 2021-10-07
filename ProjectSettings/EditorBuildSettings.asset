@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scenes/Splash/Splash.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Game/Scenes/Main Manu/MainManu.unity
+    guid: eabd0b55eb8c6874fb534a9ea65cddf6
+  - enabled: 1
+    path: Assets/Game/Scenes/Get More Energy/GetMoreEnergy.unity
+    guid: a8c00951d22f86d43b7fd03792f0e512
+  - enabled: 0
+    path: Assets/Game/Scenes/Game Play/GamePlay.unity
+    guid: a1bd41a648cf61444bc415aa9211976b
+  - enabled: 1
+    path: Assets/Game/Scenes/Episode Select/EpisodeSelect.unity
+    guid: 466e2c6754954594282dc1784bfb5977
+  - enabled: 1
+    path: Assets/Game/Scenes/Paused/Paused.unity
+    guid: c1a8298a573560c489bae2a8c5fac0eb
+  - enabled: 1
+    path: Assets/Game/Scenes/Settings/Settings.unity
+    guid: 6241b3868d063204fbbd8cde5f44f40f
+  - enabled: 1
+    path: Assets/Game/Scenes/BrightDay.unity
+    guid: 106025b4713992744bb2e8999d6a3608
+  - enabled: 1
+    path: Assets/Game/Scenes/PlayerSelection.unity
+    guid: 87c7e43af60b1d74495d8f7ac501e34b
+  m_configObjects: {}
