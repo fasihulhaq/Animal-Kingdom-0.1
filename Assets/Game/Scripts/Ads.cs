@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class Ads : MonoBehaviour, IUnityAdsListener
 {
+    public GameObject rewardButton;
+    public GameObject rewardButton2;
     private int rewardedScore;
     private int looseRewarded;
     public Text showRewardedScore;
@@ -15,6 +17,27 @@ public class Ads : MonoBehaviour, IUnityAdsListener
     {
         Advertisement.Initialize("4393361");
         Advertisement.AddListener(this);
+    }
+
+    public void SetShow2()
+    {
+        StartCoroutine(Status2());
+    }
+
+    IEnumerator Status2()
+    {
+        yield return new WaitForSeconds(300);
+        rewardButton2.SetActive(true);
+    }
+
+    public void SetShow()
+    {
+        StartCoroutine(Status());
+    }
+    IEnumerator Status()
+    {
+        yield return new WaitForSeconds(300);
+        rewardButton.SetActive(true);
     }
 
     public void RewardedAd(int reward)

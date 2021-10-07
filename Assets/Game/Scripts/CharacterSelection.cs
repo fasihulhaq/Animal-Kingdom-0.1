@@ -59,4 +59,10 @@ public class CharacterSelection : MonoBehaviour
         PlayerPrefs.SetInt("CharacterSelected", index);
         SceneManager.LoadScene("BrightDay");
     }
+
+    public void scoreZero()
+    {
+        Timer.countDownStartValue = 60;
+        Score.score = 0;
+    }
 }

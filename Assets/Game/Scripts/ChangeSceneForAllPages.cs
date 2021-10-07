@@ -27,6 +27,8 @@ public class ChangeSceneForAllPages : MonoBehaviour
     public void GamePlay()
     {
         SceneManager.LoadScene("BrightDay");
+        Timer.countDownStartValue = 60;
+        Score.score = 0;
     }
     public void PauseGame()
     {

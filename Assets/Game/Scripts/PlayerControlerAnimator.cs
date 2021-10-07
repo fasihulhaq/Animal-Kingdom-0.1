@@ -45,7 +45,7 @@ public class PlayerControlerAnimator : MonoBehaviour
     }
     void PlayerWin()
     {
-        if (Score.score==200)
+        if (Score.score>=200)
         {
             finalScore = Score.score * 2;
             panel.SetActive(true);
