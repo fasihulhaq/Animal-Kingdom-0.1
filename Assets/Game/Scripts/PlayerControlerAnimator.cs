@@ -47,12 +47,11 @@ public class PlayerControlerAnimator : MonoBehaviour
     {
         if (Score.score>=200)
         {
-            finalScore = Score.score * 2;
+            //finalScore = Score.score * 2;
             panel.SetActive(true);
             panel2.SetActive(false);
             gameScore.text = Score.score.ToString();
             winScore.text = Score.highscore.ToString();
-
         }
     }
 }

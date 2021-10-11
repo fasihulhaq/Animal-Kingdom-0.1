@@ -17,6 +17,7 @@ public class HighGameScore : MonoBehaviour
         yield return new WaitForSeconds(60.0f);
         score.text = Score.score.ToString();
         HighScore.text = Score.highscore.ToString();
+        LeaderBoard.instance.LeaderBoardShow();
     }
 
 }
